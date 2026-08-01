@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Agampreet Waan Banner" width="100%" />
+  <img src="banner.svg" alt="Agampreet Waan Banner" width="100%" />
 </p>
 
 ## 👋 About Me

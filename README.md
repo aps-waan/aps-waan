@@ -1,207 +1,134 @@
-# Hi, I'm Agampreet Waan
+<p align="center">
+  <img src="assets/banner.svg" alt="Agampreet Waan Banner" width="100%" />
+</p>
 
-### Building AI, Data Analytics & FinTech products.
+## 👋 About Me
 
-I'm a BBA (FinTech) student who enjoys solving business problems with data, automation, and AI.
-
-Most of my work sits at the intersection of:
-
-* Financial Technology
-* Artificial Intelligence
-* Business Intelligence
-* Data Analytics
-* Full-Stack Development
-
-Rather than collecting tutorials, I prefer building complete products—from idea to deployment.
+I am a **BBA (FinTech) student** specializing in building data-driven solutions at the intersection of **Financial Technology, Artificial Intelligence, and Business Intelligence**. Rather than just collecting theoretical concepts, I focus on building complete, production-ready products—from database modeling to user-friendly AI integrations.
 
 ---
 
-## What I Build
+## 🚀 Currently Building
 
-### Financial Intelligence
+```text
+📁 Nexus v2           █░░░░░░░░░░░░░░░░░░░ 10%  (Upgrading cleaner pipeline & LLM agent autonomy)
+📁 AI Agents          ████████████░░░░░░░░ 60%  (Multi-agent workflows for financial document analysis)
+📁 Data Intelligence  ████████████████░░░░ 80%  (Advanced DAX modeling and ETL automation templates)
+📁 Business Analytics ███████████████████░ 95%  (Real-time sales dashboard integrations)
+```
 
-* Portfolio analytics platforms
-* Risk analysis systems
-* Performance tracking
-* Investment dashboards
-* Financial visualization
-
-### Data Analytics
-
-* Interactive Power BI dashboards
-* SQL data analysis
-* Business KPI reporting
-* ETL pipelines
-* Automated reporting systems
-
-### AI Applications
-
-* AI-powered chatbots
-* Workflow automation
-* LLM integrations
-* AI agents
-* Intelligent business tools
-
-### Web Applications
-
-* Modern React interfaces
-* FastAPI backends
-* PostgreSQL databases
-* Responsive UI/UX
-* Production-ready deployments
+- **Focus Areas**: Agentic AI workflows • Quantitative portfolio analytics • SQL & Power BI analytics pipelines • Scalable full-stack systems.
 
 ---
 
-## Featured Projects
+## 🛠️ Tech Stack
 
-### Lucidity
+<div align="center">
+  
+  ### Languages & Frameworks
+  [![My Skills](https://skillicons.dev/icons?i=python,js,fastapi,react,html,css,streamlit&theme=dark)](https://skillicons.dev)
 
-An AI-powered Portfolio Intelligence Platform featuring portfolio analytics, performance tracking, risk metrics, benchmark comparisons, and AI-generated investment insights.
+  ### Data, Databases & BI
+  [![My Skills](https://skillicons.dev/icons?i=mysql,postgres,supabase,mongodb&theme=dark)](https://skillicons.dev)
+  
+  *(Power BI, Excel, DAX, Power Query, Pandas, NumPy, Plotly)*
 
-**Tech**
-Python • Streamlit • Pandas • NumPy • Plotly • Machine Learning
+  ### AI, Automation & Tools
+  [![My Skills](https://skillicons.dev/icons?i=openai,docker,git,github,vscode&theme=dark)](https://skillicons.dev)
+  
+  *(Google Gemini API, n8n Workflow Automation, LLM Integrations)*
 
----
-
-### Nexus
-
-A universal AI-powered data analysis platform that automatically cleans, analyzes, visualizes, and generates insights from datasets.
-
-**Focus**
-AI • Automation • Business Intelligence • Data Analytics
-
----
-
-### Blinkit Sales Analysis
-
-An end-to-end business intelligence project analyzing retail sales data using SQL and Power BI.
-
-Includes:
-
-* SQL analysis
-* KPI reporting
-* Executive dashboard
-* Sales insights
-* Interactive visualizations
+</div>
 
 ---
 
-### Mini Aladdin
+## 🏆 Featured Projects
 
-A financial analytics platform inspired by institutional portfolio management systems.
+Here is a selection of my core projects, highlighting my work in analytics, finance, and AI.
 
-Features:
-
-* Portfolio analytics
-* Risk metrics
-* Asset allocation
-* Performance comparison
-* Rebalancing insights
-
----
-
-## Tech Stack
-
-### Languages
-
-* Python
-* SQL
-* JavaScript
-* HTML
-* CSS
-
-### Data
-
-* Pandas
-* NumPy
-* Excel
-* Power Query
-
-### Business Intelligence
-
-* Power BI
-* DAX
-* Power Query
-* Data Modeling
-
-### Backend
-
-* FastAPI
-* PostgreSQL
-* Supabase
-
-### Frontend
-
-* React
-* Vite
-* Tailwind CSS
-
-### AI & Automation
-
-* OpenAI APIs
-* Google Gemini
-* n8n
-* LLM Integrations
-
-### Tools
-
-* Git
-* GitHub
-* VS Code
-* MySQL
-* Streamlit
-* Docker
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 Nexus</h3>
+      <p><strong>AI Universal Data Analyzer</strong></p>
+      <p>A universal data analysis platform that automatically cleans raw datasets, performs exploratory analysis (EDA), generates interactive charts, and produces executive summaries using AI agents.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📈 Lucidity</h3>
+      <p><strong>Portfolio Intelligence Platform</strong></p>
+      <p>An institutional-grade portfolio analytics dashboard providing real-time performance tracking, risk metrics (Sharpe, VaR, Beta), benchmark comparisons, and AI-driven investment allocation recommendations.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📊 Amazon Sales Analytics</h3>
+      <p><strong>E-commerce Business Dashboard</strong></p>
+      <p>End-to-end sales analytics pipeline parsing e-commerce datasets to uncover seasonality trends, track inventory turnover ratios, evaluate seller performance, and perform customer cohort analysis.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+        <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
+        <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛍️ Blinkit Dashboard</h3>
+      <p><strong>Retail Performance Analysis</strong></p>
+      <p>A comprehensive business intelligence dashboard translating retail transactions into actionable management insights, tracking delivery efficiency, product availability, and outlet-wise sales margins.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+        <img src="https://img.shields.io/badge/DAX-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+        <img src="https://img.shields.io/badge/Power_Query-007ACC?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Currently Working On
-
-* AI-powered business applications
-* Financial analytics platforms
-* Workflow automation
-* Intelligent data systems
-* Full-stack AI products
-
----
-
-## What Interests Me
-
-* Artificial Intelligence
-* Financial Engineering
-* Data Science
-* Business Intelligence
-* Product Development
-* Automation
-* SaaS
-
----
-
-## GitHub Stats
+## 📈 GitHub Analytics
 
 <p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=aps-waan&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aps-waan&layout=compact&theme=tokyonight&hide_border=true"/>
-
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=aps-waan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aps-waan&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-
-<img src="https://streak-stats.demolab.com?user=aps-waan&theme=tokyonight&hide_border=true"/>
-
+  <img src="https://streak-stats.demolab.com?user=aps-waan&theme=tokyonight&hide_border=true" width="100%" />
 </p>
 
 ---
 
-## Connect With Me
+## 🎓 Timeline & Experience
 
-GitHub → https://github.com/aps-waan
-
-LinkedIn → https://www.linkedin.com/in/aps-waan
-
-Portfolio → https://aps-waan.vercel.app
+- **BBA in Financial Technology**
+  *Developing a solid foundation in corporate finance, investment analysis, quantitative modeling, and regulatory frameworks.*
+- **Independent Product Builder**
+  *Applying advanced analytics, LLM orchestration, and modern web architectures to build business-ready intelligence solutions.*
 
 ---
 
-> *Building products that combine AI, data, and finance to solve real-world business problems.*
+## 🤝 Connect
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/aps-waan" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://aps-waan.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="mailto:agampreetwaan@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>

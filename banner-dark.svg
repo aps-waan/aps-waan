@@ -250,7 +250,7 @@
       <!-- ROW 1: Commercial Web Deliveries -->
       <g transform="translate(0, 0)">
         <text x="0" y="11" fill="#f1f5f9" class="font-mono" font-size="11" font-weight="600">Client Web (Shopify / WP / React)</text>
-        <text x="360" y="11" fill="#34d399" class="font-mono" font-size="10" font-weight="700">100% DEPLOYED</text>
+        <text x="375" y="11" fill="#34d399" class="font-mono" font-size="10" font-weight="700">ACTIVE</text>
         <rect x="0" y="19" width="432" height="5" rx="2.5" fill="rgba(255, 255, 255, 0.07)" />
         <rect x="0" y="19" width="432" height="5" rx="2.5" fill="url(#emeraldBar)" class="glow-bar" />
       </g>
@@ -266,7 +266,7 @@
       <!-- ROW 3: Lucidity FinTech Engine -->
       <g transform="translate(0, 84)">
         <text x="0" y="11" fill="#f1f5f9" class="font-mono" font-size="11" font-weight="600">Lucidity Engine (VaR, Sharpe &amp; Monte Carlo)</text>
-        <text x="366" y="11" fill="#fbbf24" class="font-mono" font-size="10" font-weight="700">99.2% PREC</text>
+        <text x="375" y="11" fill="#fbbf24" class="font-mono" font-size="10" font-weight="700">ACTIVE</text>
         <rect x="0" y="19" width="432" height="5" rx="2.5" fill="rgba(255, 255, 255, 0.07)" />
         <rect x="0" y="19" width="395" height="5" rx="2.5" fill="url(#goldBar)" class="glow-bar" />
       </g>
@@ -288,7 +288,7 @@
         <g transform="translate(0, 24)">
           <text x="0" y="8" fill="#64748b" class="font-mono" font-size="9" font-weight="700">EXEC &gt;</text>
           <g transform="translate(48, 8)">
-            <text fill="#38bdf8" class="font-mono cmd-1" font-size="9" font-weight="600">ap.exec("analyze_risk") // VaR: 99.2% Sharpe: 2.14</text>
+            <text fill="#38bdf8" class="font-mono cmd-1" font-size="9" font-weight="600">ap.exec("analyze_risk") // VaR (95%) | Sharpe: 2.14</text>
             <text fill="#34d399" class="font-mono cmd-2" font-size="9" font-weight="600">powerbi.render("blinkit_bi") // 8,500+ orders [OK]</text>
             <text fill="#fbbf24" class="font-mono cmd-3" font-size="9" font-weight="600">sql.query("amazon_sales") // 130k rows partitioned</text>
           </g>

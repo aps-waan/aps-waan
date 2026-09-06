@@ -246,7 +246,7 @@
       <!-- ROW 1: Commercial Web Deliveries -->
       <g transform="translate(0, 0)">
         <text x="0" y="11" fill="#0f172a" class="font-mono" font-size="11" font-weight="700">Client Web (Shopify / WP / React)</text>
-        <text x="360" y="11" fill="#059669" class="font-mono" font-size="10" font-weight="700">100% DEPLOYED</text>
+        <text x="375" y="11" fill="#059669" class="font-mono" font-size="10" font-weight="700">ACTIVE</text>
         <rect x="0" y="19" width="432" height="5" rx="2.5" fill="rgba(226, 232, 240, 0.8)" />
         <rect x="0" y="19" width="432" height="5" rx="2.5" fill="url(#emeraldBarLight)" class="glow-bar-light" />
       </g>
@@ -262,7 +262,7 @@
       <!-- ROW 3: Lucidity FinTech Engine -->
       <g transform="translate(0, 84)">
         <text x="0" y="11" fill="#0f172a" class="font-mono" font-size="11" font-weight="700">Lucidity Engine (VaR, Sharpe &amp; Monte Carlo)</text>
-        <text x="366" y="11" fill="#d97706" class="font-mono" font-size="10" font-weight="700">99.2% PREC</text>
+        <text x="375" y="11" fill="#d97706" class="font-mono" font-size="10" font-weight="700">ACTIVE</text>
         <rect x="0" y="19" width="432" height="5" rx="2.5" fill="rgba(226, 232, 240, 0.8)" />
         <rect x="0" y="19" width="395" height="5" rx="2.5" fill="url(#goldBarLight)" class="glow-bar-light" />
       </g>
@@ -284,7 +284,7 @@
         <g transform="translate(0, 24)">
           <text x="0" y="8" fill="#64748b" class="font-mono" font-size="9" font-weight="700">EXEC &gt;</text>
           <g transform="translate(48, 8)">
-            <text fill="#0284c7" class="font-mono cmd-1-light" font-size="9" font-weight="700">ap.exec("analyze_risk") // VaR: 99.2% Sharpe: 2.14</text>
+            <text fill="#0284c7" class="font-mono cmd-1-light" font-size="9" font-weight="700">ap.exec("analyze_risk") // VaR (95%) | Sharpe: 2.14</text>
             <text fill="#059669" class="font-mono cmd-2-light" font-size="9" font-weight="700">powerbi.render("blinkit_bi") // 8,500+ orders [OK]</text>
             <text fill="#d97706" class="font-mono cmd-3-light" font-size="9" font-weight="700">sql.query("amazon_sales") // 130k rows partitioned</text>
           </g>

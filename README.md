@@ -174,9 +174,9 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
     <td width="50%" valign="top">
       <div align="center">
         <h3>📈 Lucidity FinTech Risk Engine</h3>
-        <p><strong>Quantitative Finance • Monte Carlo • Streamlit • 99.2% Accuracy</strong></p>
+        <p><strong>Quantitative Finance • Monte Carlo Simulation • Streamlit • Risk Modeling</strong></p>
       </div>
-      <p>An institutional-grade algorithmic portfolio risk engine calculating real-time risk-adjusted metrics, covariance matrices, and downside volatility regime models in under 2 minutes.</p>
+      <p>A quantitative portfolio risk dashboard calculating risk-adjusted metrics, multi-asset covariance matrices, and downside volatility models.</p>
       <ul>
         <li><b>Quantitative Models:</b> Computes Sharpe Ratio, Sortino Ratio, Value-at-Risk (Parametric & Historical VaR), Beta, and Fama-French factor regressions.</li>
         <li><b>Simulation Engine:</b> Conducts multi-path Monte Carlo simulations to estimate probability distributions of maximum portfolio drawdowns.</li>
@@ -266,7 +266,7 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
 <br/>
 
 <details>
-<summary><b>📁 Deep Dive: Blinkit Quick-Commerce BI Architecture (8,500+ Orders)</b></summary>
+<summary><b>📁 Deep Dive: Blinkit Quick-Commerce BI Architecture</b></summary>
 <br/>
 
 ```bash
@@ -299,7 +299,7 @@ RETURN
 </details>
 
 <details>
-<summary><b>📁 Deep Dive: Amazon India E-Commerce SQL Audit (130,000+ Orders)</b></summary>
+<summary><b>📁 Deep Dive: Amazon India E-Commerce SQL Audit</b></summary>
 <br/>
 
 ```bash
@@ -324,16 +324,16 @@ GROUP BY fulfillment_channel;
 </details>
 
 <details>
-<summary><b>📁 Deep Dive: NEXUS AI Dataset Cleaning PaaS Engine (98.5% Accuracy)</b></summary>
+<summary><b>📁 Deep Dive: NEXUS AI Dataset Cleaning PaaS Engine</b></summary>
 <br/>
 
 ```bash
 [TARGET-ID: NEXUS-AI-DATASET-CLEANER]
 ├── Build Log Deep Dive : https://aps-waan.vercel.app/build-log/nexus
 ├── Architecture Scope  : React Frontend ➔ FastAPI Gateway ➔ Automated Cleaning Engine ➔ Groq/OpenAI Parser
-├── Schema Precision    : 98.5% accuracy across heterogeneous CSV/JSON columnar data
-├── Data Quality Boost  : 94.2% automated cleansing precision (imputation, deduplication, type inference)
-├── Chunk Streaming     : Scalable 1GB dataset ingest buffer via Pandas streaming iterators
+├── Schema Inference   : Automated classification of Metric, DateTime & Dimension types
+├── Data Cleaning Engine: Automated null handling, deduplication, and anomaly detection
+├── Chunk Streaming     : Scalable dataset ingest buffer via Pandas streaming iterators
 └── Enterprise Utility  : Exports clean parquet/csv with complete reproducible audit trail
 ```
 
@@ -353,7 +353,7 @@ def auto_detect_types(df: pd.DataFrame) -> dict:
 </details>
 
 <details>
-<summary><b>📁 Deep Dive: Investment Portfolio Recommendation System (ML Random Forest + Llama 3.1)</b></summary>
+<summary><b>📁 Deep Dive: Investment Portfolio Recommendation System</b></summary>
 <br/>
 
 ```bash
@@ -382,7 +382,7 @@ def train_desirability_model(features_df, forward_returns):
 </details>
 
 <details>
-<summary><b>📁 Deep Dive: Lucidity Quant Risk &amp; Monte Carlo Engine (99.2% Precision)</b></summary>
+<summary><b>📁 Deep Dive: Lucidity Quant Risk &amp; Monte Carlo Engine</b></summary>
 <br/>
 
 ```bash
@@ -390,13 +390,13 @@ def train_desirability_model(features_df, forward_returns):
 ├── Engine Architecture  : Python 3.11 • Streamlit • Pandas • NumPy • FastAPI
 ├── Mathematical Models  : Historical &amp; Parametric VaR (95%/99%), Sharpe, Sortino &amp; Beta
 ├── Simulation Vector    : 10,000-path Monte Carlo asset return projection &amp; drawdown frontiers
-├── Analytical Precision : 99.2% calculation precision across multi-asset covariance matrices
+├── Risk Framework       : Multi-asset covariance, portfolio beta &amp; downside volatility modeling
 └── Live Prototype       : Deployed at https://lucidity-app.streamlit.app/
 ```
 </details>
 
 <details>
-<summary><b>📁 Deep Dive: Commercial Client Web &amp; Production Operations (100% Deployed)</b></summary>
+<summary><b>📁 Deep Dive: Commercial Client Web &amp; Production Operations</b></summary>
 <br/>
 
 ```bash
@@ -404,7 +404,7 @@ def train_desirability_model(features_df, forward_returns):
 ├── Platforms Delivered  : Custom Shopify Storefronts • Custom WordPress Themes (DigitalHive) • React SPAs
 ├── Hosting &amp; Web Ops    : Hostinger VPS • cPanel administration • Zero-downtime DNS routing • SSL
 ├── Conversion Focus     : Performance tuning (PageSpeed 90+), mobile-first responsive UX, CRO funnels
-└── Verifiable Status    : Live client deployments active and generating commercial revenue
+└── Deployment Status    : Active live production stores and client sites
 ```
 </details>
 
@@ -478,7 +478,7 @@ Here is the systematic methodology I apply across real-world business intelligen
 ├── Contributions    : 480+ commits across public & commercial repositories
 ├── Cloud & Hosting  : Vercel (Interactive React SPAs) • Hostinger VPS (Client Sites)
 ├── Data & BI Stack  : Power BI (Star Schema & DAX) • SQL (MySQL/Postgres) • Python
-└── Operational SLA  : 99.2% model calculation precision • Zero-downtime DNS ops
+└── Production Specs : Validated quant metrics • Production hosting & DNS ops
 ```
 
 ---

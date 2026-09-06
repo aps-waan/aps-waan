@@ -260,28 +260,32 @@ Here is the systematic methodology I apply across real-world business intelligen
 
 ---
 
-## 📊 GitHub Analytics & Real-Time Telemetry
+## 📊 GitHub Analytics & Engineering Telemetry
 
 <div align="center">
   <table border="0">
     <tr>
-      <td align="center">
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aps-waan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=06b6d4&text_color=94a3b8&icon_color=06b6d4&bg_color=090d16" height="175" alt="GitHub Stats" />
+      <td align="center" valign="middle">
+        <a href="https://github.com/aps-waan" target="_blank">
+          <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aps-waan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&bg_color=0b1120" height="170" alt="GitHub Stats" />
+        </a>
       </td>
-      <td align="center">
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aps-waan&layout=compact&theme=tokyonight&hide_border=true&title_color=06b6d4&text_color=94a3b8&bg_color=090d16" height="175" alt="Top Languages" />
+      <td align="center" valign="middle">
+        <a href="https://github.com/aps-waan" target="_blank">
+          <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aps-waan&layout=compact&theme=tokyonight&hide_border=true&hide=batchfile,powershell&title_color=38bdf8&text_color=94a3b8&bg_color=0b1120" height="170" alt="Top Languages" />
+        </a>
       </td>
     </tr>
   </table>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aps-waan&theme=tokyonight&hide_border=true&background=090d16&ring=06b6d4&fire=f59e0b&currStreakNum=06b6d4&sideNums=94a3b8&dates=64748b" width="100%" alt="GitHub Streak" />
-
-  <br/>
-
-  <a href="https://github.com/aps-waan">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=aps-waan&theme=tokyo-night&bg_color=090d16&color=06b6d4&line=06b6d4&point=f59e0b&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
-  </a>
 </div>
+
+```bash
+[TELEMETRY LOG // YEARLY ACTIVITY & REPOSITORY METRICS]
+├── Total Contributions     : 430+ verified commits across public & private commercial repositories
+├── Production Deployments  : Vercel (Interactive React SPAs) • Hostinger VPS (Client Stores & WordPress)
+├── Data & Analytics Stack  : Power BI (Star Schema / DAX) • MySQL & PostgreSQL • Python (Pandas/Streamlit)
+└── Operational SLA         : 99.2% calculation precision • Zero-downtime DNS & domain migrations
+```
 
 ---
 

@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Light Tech Canvas Gradients -->
+    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="50%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+
+    <!-- Deep Cyan to Slate Indigo Gradient -->
+    <linearGradient id="cyanIndigoLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7">
+        <animate attributeName="stop-color" values="#0284c7;#0e7490;#4338ca;#0284c7" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#0e7490">
+        <animate attributeName="stop-color" values="#0e7490;#4338ca;#0284c7;#0e7490" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#4338ca">
+        <animate attributeName="stop-color" values="#4338ca;#0284c7;#0e7490;#4338ca" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="cyanBarLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+
+    <linearGradient id="emeraldBarLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <linearGradient id="goldBarLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <linearGradient id="glassBorderLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(14, 116, 144, 0.4)" />
+      <stop offset="50%" stop-color="rgba(203, 213, 225, 0.6)" />
+      <stop offset="100%" stop-color="rgba(67, 56, 202, 0.3)" />
+    </linearGradient>
+
+    <!-- Moving Radar Beam Gradient (Light) -->
+    <linearGradient id="radarBeamLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(14, 116, 144, 0)" />
+      <stop offset="80%" stop-color="rgba(14, 116, 144, 0.05)" />
+      <stop offset="100%" stop-color="rgba(14, 116, 144, 0.2)" />
+    </linearGradient>
+
+    <!-- Precision Blueprint Grid -->
+    <pattern id="techGridLight" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(14, 116, 144, 0.05)" stroke-width="1" />
+      <circle cx="30" cy="30" r="0.8" fill="rgba(14, 116, 144, 0.25)" />
+    </pattern>
+
+    <!-- Filters -->
+    <filter id="softGlowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="ambientLightMode" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Inter, Helvetica, sans-serif;
+    }
+    .font-mono {
+      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
+    }
+    
+    @keyframes pulseBeaconLight {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.85); }
+    }
+    @keyframes scanlineAnimLight {
+      0% { transform: translateY(-100px); }
+      100% { transform: translateY(400px); }
+    }
+    @keyframes shimmerBarWidthLight {
+      0%, 100% { opacity: 0.92; }
+      50% { opacity: 1; filter: drop-shadow(0 0 4px rgba(2, 132, 199, 0.5)); }
+    }
+    
+    .pulse-light {
+      animation: pulseBeaconLight 2.5s infinite ease-in-out;
+      transform-origin: center;
+    }
+    .scanline-light {
+      animation: scanlineAnimLight 7s infinite linear;
+    }
+    .glow-bar-light {
+      animation: shimmerBarWidthLight 3s infinite ease-in-out;
+    }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1200" height="380" rx="14" fill="url(#bgGradLight)" stroke="rgba(148, 163, 184, 0.35)" stroke-width="1.2" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="160" cy="110" r="160" fill="#38bdf8" opacity="0.12" filter="url(#ambientLightMode)" />
+  <circle cx="1060" cy="270" r="190" fill="#818cf8" opacity="0.12" filter="url(#ambientLightMode)" />
+  <circle cx="640" cy="50" r="130" fill="#22d3ee" opacity="0.08" filter="url(#ambientLightMode)" />
+
+  <!-- Grid Matrix -->
+  <rect width="1200" height="380" rx="14" fill="url(#techGridLight)" />
+
+  <!-- Animated Radar Scanline -->
+  <g class="scanline-light">
+    <rect x="0" y="0" width="1200" height="70" fill="url(#radarBeamLight)" opacity="0.7" />
+    <line x1="0" y1="70" x2="1200" y2="70" stroke="rgba(14, 116, 144, 0.45)" stroke-width="1" />
+  </g>
+
+  <!-- Corner Precision Reticles -->
+  <path d="M 18 32 L 18 18 L 32 18" stroke="rgba(14, 116, 144, 0.6)" stroke-width="1.5" fill="none" />
+  <path d="M 1182 32 L 1182 18 L 1168 18" stroke="rgba(14, 116, 144, 0.6)" stroke-width="1.5" fill="none" />
+  <path d="M 18 348 L 18 362 L 32 362" stroke="rgba(14, 116, 144, 0.6)" stroke-width="1.5" fill="none" />
+  <path d="M 1182 348 L 1182 362 L 1168 362" stroke="rgba(14, 116, 144, 0.6)" stroke-width="1.5" fill="none" />
+
+  <!-- Top System Telemetry Strip -->
+  <g transform="translate(48, 24)">
+    <circle cx="4" cy="4" r="3.5" fill="#059669" class="pulse-light" filter="url(#softGlowLight)" />
+    <text x="16" y="7.5" fill="#64748b" class="font-mono" font-size="9.5" font-weight="700" letter-spacing="1.5">SYS_STATUS: ONLINE</text>
+    <text x="170" y="7.5" fill="#cbd5e1" class="font-mono" font-size="9.5">•</text>
+    <text x="185" y="7.5" fill="#64748b" class="font-mono" font-size="9.5" font-weight="700" letter-spacing="1.5">CHITKARA UNIV // BBA FINTECH</text>
+    <text x="405" y="7.5" fill="#cbd5e1" class="font-mono" font-size="9.5">•</text>
+    <text x="420" y="7.5" fill="#0284c7" class="font-mono" font-size="9.5" font-weight="700" letter-spacing="1.5">APS-WAAN.VERCEL.APP</text>
+  </g>
+
+  <!-- ================= LEFT COLUMN: HERO IDENTITY ================= -->
+  <g transform="translate(48, 62)">
+    
+    <!-- Category Pill Tag -->
+    <g transform="translate(0, 0)">
+      <rect width="270" height="24" rx="12" fill="rgba(14, 116, 144, 0.09)" stroke="rgba(14, 116, 144, 0.35)" stroke-width="1" />
+      <circle cx="12" cy="12" r="3" fill="#0284c7" class="pulse-light" />
+      <text x="24" y="15.5" fill="#0e7490" class="font-mono" font-size="9.5" font-weight="700" letter-spacing="1.5">DATA &amp; BI ANALYST // FINTECH</text>
+    </g>
+
+    <!-- Main Name Title -->
+    <text x="0" y="68" fill="#0f172a" class="font-sans" font-size="44" font-weight="800" letter-spacing="-0.8">
+      Agampreet Singh Waan
+    </text>
+
+    <!-- Dynamic Animated Gradient Sub-Headline -->
+    <text x="0" y="104" fill="url(#cyanIndigoLight)" class="font-sans" font-size="18" font-weight="700" letter-spacing="0.3">
+      Business Intelligence • FinTech Systems • Commercial Web
+    </text>
+
+    <!-- Clear Value Proposition Copy -->
+    <text x="0" y="136" fill="#475569" class="font-sans" font-size="14" font-weight="500" letter-spacing="0.1">
+      Engineering data products, relational SQL pipelines, and Power BI dashboards
+    </text>
+    <text x="0" y="157" fill="#475569" class="font-sans" font-size="14" font-weight="500" letter-spacing="0.1">
+      alongside live commercial client web storefronts (Shopify, WordPress &amp; React).
+    </text>
+
+    <!-- ================= SPEC PILLS ROW 1 ================= -->
+    <g transform="translate(0, 192)">
+      <!-- Pill 1: SQL & BI -->
+      <g transform="translate(0, 0)">
+        <rect width="175" height="32" rx="8" fill="#ffffff" stroke="url(#glassBorderLight)" stroke-width="1" filter="drop-shadow(0 1px 2px rgba(0,0,0,0.05))" />
+        <circle cx="16" cy="16" r="3.5" fill="#0284c7" />
+        <text x="28" y="20" fill="#1e293b" class="font-mono" font-size="10.5" font-weight="600">SQL &amp; Power BI / DAX</text>
+      </g>
+
+      <!-- Pill 2: FinTech & Risk -->
+      <g transform="translate(187, 0)">
+        <rect width="180" height="32" rx="8" fill="#ffffff" stroke="url(#glassBorderLight)" stroke-width="1" filter="drop-shadow(0 1px 2px rgba(0,0,0,0.05))" />
+        <circle cx="16" cy="16" r="3.5" fill="#d97706" />
+        <text x="28" y="20" fill="#1e293b" class="font-mono" font-size="10.5" font-weight="600">Quant Risk &amp; Sharpe/VaR</text>
+      </g>
+
+      <!-- Pill 3: E-Commerce Storefronts -->
+      <g transform="translate(379, 0)">
+        <rect width="188" height="32" rx="8" fill="#ffffff" stroke="url(#glassBorderLight)" stroke-width="1" filter="drop-shadow(0 1px 2px rgba(0,0,0,0.05))" />
+        <circle cx="16" cy="16" r="3.5" fill="#059669" />
+        <text x="28" y="20" fill="#1e293b" class="font-mono" font-size="10.5" font-weight="600">Shopify • WP • React SPAs</text>
+      </g>
+    </g>
+
+    <!-- ================= SPEC PILLS ROW 2 ================= -->
+    <g transform="translate(0, 234)">
+      <!-- Pill 4: AI & Machine Intelligence -->
+      <g transform="translate(0, 0)">
+        <rect width="205" height="32" rx="8" fill="#ffffff" stroke="url(#glassBorderLight)" stroke-width="1" filter="drop-shadow(0 1px 2px rgba(0,0,0,0.05))" />
+        <circle cx="16" cy="16" r="3.5" fill="#7c3aed" />
+        <text x="28" y="20" fill="#1e293b" class="font-mono" font-size="10.5" font-weight="600">AI Agents &amp; ML Data Cleaners</text>
+      </g>
+
+      <!-- Pill 5: Cloud & Web Ops -->
+      <g transform="translate(217, 0)">
+        <rect width="200" height="32" rx="8" fill="#ffffff" stroke="url(#glassBorderLight)" stroke-width="1" filter="drop-shadow(0 1px 2px rgba(0,0,0,0.05))" />
+        <circle cx="16" cy="16" r="3.5" fill="#0284c7" />
+        <text x="28" y="20" fill="#1e293b" class="font-mono" font-size="10.5" font-weight="600">Hostinger • cPanel • DNS Ops</text>
+      </g>
+
+      <!-- Pill 6: Verified Proof -->
+      <g transform="translate(429, 0)">
+        <rect width="138" height="32" rx="8" fill="rgba(14, 116, 144, 0.1)" stroke="rgba(14, 116, 144, 0.5)" stroke-width="1" />
+        <text x="14" y="20" fill="#0e7490" class="font-mono" font-size="10" font-weight="700" letter-spacing="1">PROD VERIFIED ↗</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: INTERACTIVE HUD MODULE ================= -->
+  <g transform="translate(680, 52)">
+    <!-- Backdrop Glass Card -->
+    <rect width="472" height="278" rx="12" fill="#ffffff" stroke="url(#glassBorderLight)" stroke-width="1.2" filter="drop-shadow(0 4px 6px -1px rgba(0,0,0,0.08))" />
+    
+    <!-- HUD Card Header -->
+    <rect width="472" height="36" rx="12" fill="#f8fafc" />
+    <rect y="24" width="472" height="12" fill="#f8fafc" />
+    <line x1="0" y1="36" x2="472" y2="36" stroke="rgba(226, 232, 240, 0.9)" stroke-width="1" />
+
+    <!-- Terminal Indicator Dots -->
+    <circle cx="20" cy="18" r="4.5" fill="#ef4444" opacity="0.9" />
+    <circle cx="35" cy="18" r="4.5" fill="#f59e0b" opacity="0.9" />
+    <circle cx="50" cy="18" r="4.5" fill="#10b981" opacity="0.9" />
+
+    <!-- Terminal Title -->
+    <text x="70" y="22" fill="#475569" class="font-mono" font-size="10.5" font-weight="700" letter-spacing="0.5">AP_TELEMETRY // LIVE PRODUCTION MATRIX</text>
+    <rect x="406" y="10" width="52" height="16" rx="4" fill="rgba(5, 150, 105, 0.12)" stroke="rgba(5, 150, 105, 0.4)" stroke-width="0.8" />
+    <text x="415" y="21.5" fill="#059669" class="font-mono" font-size="8.5" font-weight="700">LIVE</text>
+
+    <!-- HUD Content Rows -->
+    <g transform="translate(20, 52)">
+
+      <!-- ROW 1: Commercial Web Deliveries -->
+      <g transform="translate(0, 0)">
+        <text x="0" y="11" fill="#0f172a" class="font-mono" font-size="11" font-weight="700">Client Web (Shopify / WP / React)</text>
+        <text x="360" y="11" fill="#059669" class="font-mono" font-size="10" font-weight="700">100% DEPLOYED</text>
+        <rect x="0" y="19" width="432" height="5" rx="2.5" fill="rgba(226, 232, 240, 0.8)" />
+        <rect x="0" y="19" width="432" height="5" rx="2.5" fill="url(#emeraldBarLight)" class="glow-bar-light" />
+      </g>
+
+      <!-- ROW 2: Power BI / SQL Intelligence -->
+      <g transform="translate(0, 42)">
+        <text x="0" y="11" fill="#0f172a" class="font-mono" font-size="11" font-weight="700">BI Analytics (Blinkit &amp; Amazon Dashboards)</text>
+        <text x="366" y="11" fill="#0284c7" class="font-mono" font-size="10" font-weight="700">138K+ ROWS</text>
+        <rect x="0" y="19" width="432" height="5" rx="2.5" fill="rgba(226, 232, 240, 0.8)" />
+        <rect x="0" y="19" width="432" height="5" rx="2.5" fill="url(#cyanBarLight)" class="glow-bar-light" />
+      </g>
+
+      <!-- ROW 3: Lucidity FinTech Engine -->
+      <g transform="translate(0, 84)">
+        <text x="0" y="11" fill="#0f172a" class="font-mono" font-size="11" font-weight="700">Lucidity Engine (VaR, Sharpe &amp; Monte Carlo)</text>
+        <text x="366" y="11" fill="#d97706" class="font-mono" font-size="10" font-weight="700">99.2% PREC</text>
+        <rect x="0" y="19" width="432" height="5" rx="2.5" fill="rgba(226, 232, 240, 0.8)" />
+        <rect x="0" y="19" width="395" height="5" rx="2.5" fill="url(#goldBarLight)" class="glow-bar-light" />
+      </g>
+
+      <!-- ROW 4: Nexus AI Data Cleaning Pipeline -->
+      <g transform="translate(0, 126)">
+        <text x="0" y="11" fill="#0f172a" class="font-mono" font-size="11" font-weight="700">Nexus AI (Tabular Anomaly &amp; EDA Engine)</text>
+        <text x="382" y="11" fill="#7c3aed" class="font-mono" font-size="10" font-weight="700">v2 ACTIVE</text>
+        <rect x="0" y="19" width="432" height="5" rx="2.5" fill="rgba(226, 232, 240, 0.8)" />
+        <rect x="0" y="19" width="350" height="5" rx="2.5" fill="url(#cyanBarLight)" class="glow-bar-light" />
+      </g>
+
+      <!-- Terminal Footer Divider & Specs -->
+      <g transform="translate(0, 158)">
+        <line x1="0" y1="0" x2="432" y2="0" stroke="rgba(226, 232, 240, 0.9)" stroke-width="1" />
+        
+        <g transform="translate(0, 14)">
+          <text x="0" y="10" fill="#64748b" class="font-mono" font-size="9.5" font-weight="600">CORE ARTIFACTS:</text>
+          <text x="100" y="10" fill="#475569" class="font-mono" font-size="9.5">lucidity-app.streamlit.app • aps-waan.vercel.app</text>
+        </g>
+        
+        <g transform="translate(0, 32)">
+          <text x="0" y="10" fill="#64748b" class="font-mono" font-size="9.5" font-weight="600">STACK:</text>
+          <text x="48" y="10" fill="#0284c7" class="font-mono" font-size="9.5" font-weight="700">SQL • Power BI (DAX) • Python • React • Shopify</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

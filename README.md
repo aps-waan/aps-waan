@@ -1,8 +1,12 @@
 <div align="center">
 
-<!-- HERO BANNER -->
+<!-- HERO BANNER (AUTO DARK/LIGHT ADAPTIVE) -->
 <a href="https://aps-waan.vercel.app" target="_blank">
-  <img src="banner.svg" alt="Agampreet Singh Waan - Web Developer, FinTech & BI Specialist Banner" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg">
+    <img src="banner.svg" alt="Agampreet Singh Waan - Web Developer, FinTech & BI Specialist Banner" width="100%" />
+  </picture>
 </a>
 
 <br/><br/>
@@ -222,6 +226,63 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
   </tr>
 </table>
 
+<br/>
+
+<details>
+<summary><b>▶ [SYSTEM_EXEC]: RUN_DOSSIER // BLINKIT_QUICK_COMMERCE.BI (8,500+ ORDERS)</b></summary>
+<br/>
+
+```bash
+[TARGET-ID: BLINKIT-RETAIL-TRANS]
+├── Ingestion Source     : 8,500+ transactional point-of-sale records
+├── Relational Schema    : Star Schema (Fact_Sales 1:N Dim_Items, Dim_Outlets, Dim_Dates)
+├── Core DAX Measures    : Total Sales, Tier Gross Margin %, Item Velocity, Outlet AOV
+├── Delivery SLA Insights: Isolated delivery latency variance between Tier 1 vs Tier 3 locations
+└── Verifiable Status    : Model validated • Executive dashboard published at aps-waan.vercel.app
+```
+</details>
+
+<details>
+<summary><b>▶ [SYSTEM_EXEC]: RUN_DOSSIER // AMAZON_ECOMMERCE_AUDIT.SQL (130,000+ ORDERS)</b></summary>
+<br/>
+
+```bash
+[TARGET-ID: AMAZON-IN-TRANS-130K]
+├── Database Engine      : MySQL 8.0 (Indexed partitioning across order dates)
+├── Complex Querying     : Window Functions (ROW_NUMBER, DENSE_RANK), Multi-table Joins & CTEs
+├── Channel Breakdown    : Amazon FBA fulfillment velocity vs Merchant-Fulfilled Network (MFN)
+├── Commercial Telemetry : Isolated highest-returning SKUs and quantified seasonal promotional lift
+└── Verifiable Status    : SQL scripts archived • Power BI telemetry report live
+```
+</details>
+
+<details>
+<summary><b>▶ [SYSTEM_EXEC]: RUN_DOSSIER // LUCIDITY_QUANT_ENGINE.PY (99.2% PRECISION)</b></summary>
+<br/>
+
+```bash
+[TARGET-ID: LUCIDITY-PORTFOLIO-RISK]
+├── Engine Architecture  : Python 3.11 • Streamlit • Pandas • NumPy • FastAPI
+├── Mathematical Models  : Historical & Parametric VaR (95%/99%), Sharpe, Sortino & Beta
+├── Simulation Vector    : 10,000-path Monte Carlo asset return projection & drawdown frontiers
+├── Analytical Precision : 99.2% calculation precision across multi-asset covariance matrices
+└── Live Prototype       : Deployed at https://lucidity-app.streamlit.app/
+```
+</details>
+
+<details>
+<summary><b>▶ [SYSTEM_EXEC]: RUN_DOSSIER // COMMERCIAL_CLIENT_WEB_OPS.SH (100% DEPLOYED)</b></summary>
+<br/>
+
+```bash
+[TARGET-ID: COMMERCIAL-WEB-DELIVERY]
+├── Platforms Delivered  : Custom Shopify Storefronts • Custom WordPress Themes (DigitalHive) • React SPAs
+├── Hosting & Web Ops    : Hostinger VPS • cPanel administration • Zero-downtime DNS routing • SSL
+├── Conversion Focus     : Performance tuning (PageSpeed 90+), mobile-first responsive UX, CRO funnels
+└── Verifiable Status    : Live client deployments active and generating commercial revenue
+```
+</details>
+
 ---
 
 ## ⚡ Operational Data & Analytics Lifecycle
@@ -267,12 +328,20 @@ Here is the systematic methodology I apply across real-world business intelligen
     <tr>
       <td align="center" valign="middle">
         <a href="https://github.com/aps-waan" target="_blank">
-          <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aps-waan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&bg_color=0b1120" height="170" alt="GitHub Stats" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=aps-waan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&bg_color=0b1120">
+            <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=aps-waan&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true&hide=issues&title_color=0284c7&text_color=334155&icon_color=0284c7&bg_color=ffffff&border_color=cbd5e1">
+            <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aps-waan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&bg_color=0b1120" height="170" alt="GitHub Stats" />
+          </picture>
         </a>
       </td>
       <td align="center" valign="middle">
         <a href="https://github.com/aps-waan" target="_blank">
-          <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aps-waan&layout=compact&theme=tokyonight&hide_border=true&hide=batchfile,powershell&title_color=38bdf8&text_color=94a3b8&bg_color=0b1120" height="170" alt="Top Languages" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aps-waan&layout=compact&theme=tokyonight&hide_border=true&hide=batchfile,powershell&title_color=38bdf8&text_color=94a3b8&bg_color=0b1120">
+            <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aps-waan&layout=compact&theme=default&hide_border=true&hide=batchfile,powershell&title_color=0284c7&text_color=334155&bg_color=ffffff&border_color=cbd5e1">
+            <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aps-waan&layout=compact&theme=tokyonight&hide_border=true&hide=batchfile,powershell&title_color=38bdf8&text_color=94a3b8&bg_color=0b1120" height="170" alt="Top Languages" />
+          </picture>
         </a>
       </td>
     </tr>

@@ -271,14 +271,14 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
 
 ```bash
 [TARGET-ID: BLINKIT-RETAIL-TRANS]
-├── Build Log Deep Dive  : https://aps-waan.vercel.app/build-log/blinkit-sales
-├── GitHub Codebase      : https://github.com/aps-waan/blinkit-sales-analysis
-├── LinkedIn Case Study  : https://lnkd.in/g29S5QT2
-├── Pipeline Topology    : Raw Excel Data ➔ SQL Querying ➔ Power Query (ETL) ➔ DAX Modeling Engine
-├── Star Schema Relational: FactSales (1:N) DimDate, DimOutlet, DimProduct
-├── SQL Pre-aggregation  : DENSE_RANK() window functions in DataGrip for category revenue ranking
-├── Data Sanitization    : Power Query M to resolve mixed item descriptions ('low fat' vs 'LF' vs 'Regular')
-└── Repeatable Workflow  : Auto-refresh pipeline (dropping raw Excel updates all SQL & Power BI visuals)
+├── Build Log Deep Dive : https://aps-waan.vercel.app/build-log/blinkit-sales
+├── GitHub Codebase     : https://github.com/aps-waan/blinkit-sales-analysis
+├── LinkedIn Case Study : https://lnkd.in/g29S5QT2
+├── Pipeline Topology   : Excel Data ➔ SQL Querying ➔ Power Query ETL ➔ DAX Modeling
+├── Star Schema Model   : FactSales (1:N) DimDate, DimOutlet, DimProduct
+├── SQL Pre-aggregation : DENSE_RANK() in DataGrip for category revenue ranking
+├── Data Sanitization   : Power Query M resolved mixed descriptions ('LF' vs 'Regular')
+└── Repeatable Pipeline : Auto-refresh updates all SQL views & Power BI visuals
 ```
 
 ```dax
@@ -304,12 +304,12 @@ RETURN
 
 ```bash
 [TARGET-ID: AMAZON-IN-TRANS-130K]
-├── Build Log Deep Dive  : https://aps-waan.vercel.app/build-log/amazon-sales
-├── GitHub Codebase      : https://github.com/aps-waan/amazon-sales-analysis
-├── Pipeline Topology    : Raw CSV ➔ Pandas/NumPy Cleaning ➔ MySQL Database ➔ DataGrip Views ➔ Power BI
-├── Data Cleaning Vector : Python Pandas dropped duplicates, handled null values & normalized datetime types
-├── Channel Attribution  : Fulfillment velocity analysis isolating Amazon FBA vs Merchant-Fulfilled (FBM)
-└── KPI Optimization     : Aggregations pre-computed as MySQL database views in DataGrip for lightweight BI
+├── Build Log Deep Dive : https://aps-waan.vercel.app/build-log/amazon-sales
+├── GitHub Codebase     : https://github.com/aps-waan/amazon-sales-analysis
+├── Pipeline Topology   : Raw CSV ➔ Pandas Cleaning ➔ MySQL DB ➔ DataGrip ➔ Power BI
+├── Data Sanitization   : Pandas dropped duplicates & normalized datetimes
+├── Channel Attribution : Fulfillment velocity isolating Amazon FBA vs MFN (FBM)
+└── KPI Optimization    : Pre-computed MySQL views in DataGrip for fast BI rendering
 ```
 
 ```sql

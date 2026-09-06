@@ -266,7 +266,7 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
 <br/>
 
 <details>
-<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // BLINKIT_QUICK_COMMERCE.BI (8,500+ ORDERS)</b></summary>
+<summary><b>📁 Deep Dive: Blinkit Quick-Commerce BI Architecture (8,500+ Orders)</b></summary>
 <br/>
 
 ```bash
@@ -299,7 +299,7 @@ RETURN
 </details>
 
 <details>
-<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // AMAZON_ECOMMERCE_AUDIT.SQL (130,000+ ORDERS)</b></summary>
+<summary><b>📁 Deep Dive: Amazon India E-Commerce SQL Audit (130,000+ Orders)</b></summary>
 <br/>
 
 ```bash
@@ -324,7 +324,7 @@ GROUP BY fulfillment_channel;
 </details>
 
 <details>
-<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // NEXUS_AI_CLEANING_PAAS.PY (98.5% ACCURACY)</b></summary>
+<summary><b>📁 Deep Dive: NEXUS AI Dataset Cleaning PaaS Engine (98.5% Accuracy)</b></summary>
 <br/>
 
 ```bash
@@ -353,7 +353,7 @@ def auto_detect_types(df: pd.DataFrame) -> dict:
 </details>
 
 <details>
-<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // INVESTMENT_PORTFOLIO_RECOMMENDER.PY (ML RANDOM FOREST + LLAMA 3.1)</b></summary>
+<summary><b>📁 Deep Dive: Investment Portfolio Recommendation System (ML Random Forest + Llama 3.1)</b></summary>
 <br/>
 
 ```bash
@@ -382,27 +382,27 @@ def train_desirability_model(features_df, forward_returns):
 </details>
 
 <details>
-<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // LUCIDITY_QUANT_ENGINE.PY (99.2% PRECISION)</b></summary>
+<summary><b>📁 Deep Dive: Lucidity Quant Risk &amp; Monte Carlo Engine (99.2% Precision)</b></summary>
 <br/>
 
 ```bash
 [TARGET-ID: LUCIDITY-PORTFOLIO-RISK]
 ├── Engine Architecture  : Python 3.11 • Streamlit • Pandas • NumPy • FastAPI
-├── Mathematical Models  : Historical & Parametric VaR (95%/99%), Sharpe, Sortino & Beta
-├── Simulation Vector    : 10,000-path Monte Carlo asset return projection & drawdown frontiers
+├── Mathematical Models  : Historical &amp; Parametric VaR (95%/99%), Sharpe, Sortino &amp; Beta
+├── Simulation Vector    : 10,000-path Monte Carlo asset return projection &amp; drawdown frontiers
 ├── Analytical Precision : 99.2% calculation precision across multi-asset covariance matrices
 └── Live Prototype       : Deployed at https://lucidity-app.streamlit.app/
 ```
 </details>
 
 <details>
-<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // COMMERCIAL_CLIENT_WEB_OPS.SH (100% DEPLOYED)</b></summary>
+<summary><b>📁 Deep Dive: Commercial Client Web &amp; Production Operations (100% Deployed)</b></summary>
 <br/>
 
 ```bash
 [TARGET-ID: COMMERCIAL-WEB-DELIVERY]
 ├── Platforms Delivered  : Custom Shopify Storefronts • Custom WordPress Themes (DigitalHive) • React SPAs
-├── Hosting & Web Ops    : Hostinger VPS • cPanel administration • Zero-downtime DNS routing • SSL
+├── Hosting &amp; Web Ops    : Hostinger VPS • cPanel administration • Zero-downtime DNS routing • SSL
 ├── Conversion Focus     : Performance tuning (PageSpeed 90+), mobile-first responsive UX, CRO funnels
 └── Verifiable Status    : Live client deployments active and generating commercial revenue
 ```

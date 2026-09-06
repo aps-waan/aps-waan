@@ -95,6 +95,20 @@
     .glow-bar-light {
       animation: shimmerBarWidthLight 3s infinite ease-in-out;
     }
+    @keyframes waveAnimLight {
+      0% { stroke-dashoffset: 432; opacity: 0.3; }
+      50% { opacity: 0.85; }
+      100% { stroke-dashoffset: 0; opacity: 0.3; }
+    }
+    @keyframes cycle1Light { 0%, 28% { opacity: 1; } 33%, 95% { opacity: 0; } 100% { opacity: 1; } }
+    @keyframes cycle2Light { 0%, 28% { opacity: 0; } 33%, 61% { opacity: 1; } 66%, 100% { opacity: 0; } }
+    @keyframes cycle3Light { 0%, 61% { opacity: 0; } 66%, 95% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes blinkCLight { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    .wave-pulse-light { animation: waveAnimLight 3.5s infinite linear; }
+    .cmd-1-light { animation: cycle1Light 9s infinite; }
+    .cmd-2-light { animation: cycle2Light 9s infinite; }
+    .cmd-3-light { animation: cycle3Light 9s infinite; }
+    .cursor-blink-light { animation: blinkCLight 0.8s infinite; }
   </style>
 
   <!-- Container Base -->
@@ -261,18 +275,25 @@
         <rect x="0" y="19" width="350" height="5" rx="2.5" fill="url(#cyanBarLight)" class="glow-bar-light" />
       </g>
 
-      <!-- Terminal Footer Divider & Specs -->
-      <g transform="translate(0, 158)">
+      <!-- Animated Waveform & Cycling Terminal Command Feed -->
+      <g transform="translate(0, 154)">
         <line x1="0" y1="0" x2="432" y2="0" stroke="rgba(226, 232, 240, 0.9)" stroke-width="1" />
+        <!-- Waveform EKG / FinTech Volatility Ticker -->
+        <path d="M 0 8 L 70 8 L 82 2 L 92 14 L 102 3 L 112 13 L 122 8 L 220 8 L 232 1 L 242 15 L 252 4 L 262 12 L 272 8 L 432 8" fill="none" stroke="#0284c7" stroke-width="1.2" opacity="0.6" stroke-dasharray="432" class="wave-pulse-light" />
         
-        <g transform="translate(0, 14)">
-          <text x="0" y="10" fill="#64748b" class="font-mono" font-size="9.5" font-weight="600">CORE ARTIFACTS:</text>
-          <text x="100" y="10" fill="#475569" class="font-mono" font-size="9.5">lucidity-app.streamlit.app • aps-waan.vercel.app</text>
+        <g transform="translate(0, 24)">
+          <text x="0" y="8" fill="#64748b" class="font-mono" font-size="9" font-weight="700">EXEC &gt;</text>
+          <g transform="translate(48, 8)">
+            <text fill="#0284c7" class="font-mono cmd-1-light" font-size="9" font-weight="700">ap.exec("analyze_risk") // VaR: 99.2% Sharpe: 2.14</text>
+            <text fill="#059669" class="font-mono cmd-2-light" font-size="9" font-weight="700">powerbi.render("blinkit_bi") // 8,500+ orders [OK]</text>
+            <text fill="#d97706" class="font-mono cmd-3-light" font-size="9" font-weight="700">sql.query("amazon_sales") // 130k rows partitioned</text>
+          </g>
+          <text x="395" y="8" fill="#0284c7" class="font-mono cursor-blink-light" font-size="10" font-weight="700">_</text>
         </g>
         
-        <g transform="translate(0, 32)">
-          <text x="0" y="10" fill="#64748b" class="font-mono" font-size="9.5" font-weight="600">STACK:</text>
-          <text x="48" y="10" fill="#0284c7" class="font-mono" font-size="9.5" font-weight="700">SQL • Power BI (DAX) • Python • React • Shopify</text>
+        <g transform="translate(0, 44)">
+          <text x="0" y="8" fill="#64748b" class="font-mono" font-size="9" font-weight="700">STACK :</text>
+          <text x="48" y="8" fill="#0284c7" class="font-mono" font-size="9" font-weight="700">SQL • Power BI (DAX) • Python • React • Shopify • VPS</text>
         </g>
       </g>
     </g>

@@ -81,6 +81,41 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
 
 ---
 
+## ⚡ Interactive Command Matrix & Live Portals
+
+<p align="center"><em>Click any modular HUD node below to launch live prototypes, interactive dashboards, or commercial platforms:</em></p>
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://lucidity-app.streamlit.app/" target="_blank">
+          <img src="node-lucidity.svg" width="280" alt="Launch Lucidity FinTech Engine" />
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://aps-waan.vercel.app/projects" target="_blank">
+          <img src="node-blinkit.svg" width="280" alt="Explore Blinkit Quick-Commerce BI" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://aps-waan.vercel.app/projects" target="_blank">
+          <img src="node-amazon.svg" width="280" alt="Explore Amazon Sales Analytics" />
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://aps-waan.vercel.app" target="_blank">
+          <img src="node-clientweb.svg" width="280" alt="Explore Commercial Web &amp; E-Commerce" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ## 📊 Data Analytics & FinTech Case Studies
 
 <table>

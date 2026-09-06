@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 78" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLucidity" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="borderLucidity" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(245, 158, 11, 0.6)" />
+      <stop offset="50%" stop-color="rgba(56, 189, 248, 0.3)" />
+      <stop offset="100%" stop-color="rgba(245, 158, 11, 0.2)" />
+    </linearGradient>
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace; }
+    .sans { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    @keyframes pulseGold {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.85); }
+    }
+    @keyframes scanH {
+      0% { transform: translateX(-100px); }
+      100% { transform: translateX(280px); }
+    }
+    .pulse-dot { animation: pulseGold 2s infinite ease-in-out; transform-origin: 18px 22px; }
+    .scan-line { animation: scanH 4s infinite linear; }
+    @media (prefers-color-scheme: light) {
+      .card-bg { fill: #ffffff !important; stroke: rgba(217, 119, 6, 0.4) !important; }
+      .card-title { fill: #0f172a !important; }
+      .card-sub { fill: #475569 !important; }
+      .btn-bg { fill: rgba(245, 158, 11, 0.12) !important; }
+      .btn-text { fill: #b45309 !important; }
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect class="card-bg" width="280" height="78" rx="10" fill="url(#bgLucidity)" stroke="url(#borderLucidity)" stroke-width="1.2" />
+
+  <!-- Scanline sweep -->
+  <g class="scan-line" opacity="0.2">
+    <line x1="0" y1="0" x2="30" y2="78" stroke="#fbbf24" stroke-width="1.5" />
+  </g>
+
+  <!-- Corner Brackets -->
+  <path d="M 6 14 L 6 6 L 14 6" stroke="#fbbf24" stroke-width="1.2" fill="none" opacity="0.7" />
+  <path d="M 274 14 L 274 6 L 266 6" stroke="#fbbf24" stroke-width="1.2" fill="none" opacity="0.7" />
+
+  <!-- Status Beacon & Category -->
+  <circle cx="18" cy="22" r="3.5" fill="#f59e0b" class="pulse-dot" filter="url(#glowGold)" />
+  <text x="28" y="25" fill="#fbbf24" class="mono" font-size="9" font-weight="700" letter-spacing="1">LIVE STREAMLIT APP</text>
+
+  <!-- Project Name -->
+  <text x="18" y="47" fill="#f8fafc" class="card-title sans" font-size="15" font-weight="800" letter-spacing="0.2">
+    Lucidity FinTech
+  </text>
+
+  <!-- Subtitle / Metrics -->
+  <text x="18" y="65" fill="#94a3b8" class="card-sub mono" font-size="10" font-weight="500">
+    Monte Carlo • Sharpe &amp; VaR
+  </text>
+
+  <!-- Interactive Action Pill Button -->
+  <rect x="200" y="24" width="66" height="28" rx="6" class="btn-bg" fill="rgba(245, 158, 11, 0.15)" stroke="rgba(245, 158, 11, 0.4)" stroke-width="1" />
+  <text x="212" y="42" class="btn-text mono" fill="#fbbf24" font-size="10" font-weight="700">LAUNCH ↗</text>
+</svg>

@@ -306,6 +306,10 @@ Whether you are looking for a **Data & BI Analyst** to untangle transactions int
     <img src="https://img.shields.io/badge/DA_Resume_PDF-0891B2?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
   </a>
   &nbsp;
+  <a href="https://aps-waan.vercel.app/resumes/Agampreet_Fintech.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/FinTech_Resume_PDF-6366F1?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
+  </a>
+  &nbsp;
   <a href="mailto:agampreetwaan@gmail.com">
     <img src="https://img.shields.io/badge/Direct_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>

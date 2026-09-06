@@ -94,14 +94,14 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
         </a>
       </td>
       <td align="center" valign="middle">
-        <a href="https://aps-waan.vercel.app/projects" target="_blank">
+        <a href="https://aps-waan.vercel.app/build-log/blinkit-sales" target="_blank">
           <img src="node-blinkit.svg" width="280" alt="Explore Blinkit Quick-Commerce BI" />
         </a>
       </td>
     </tr>
     <tr>
       <td align="center" valign="middle">
-        <a href="https://aps-waan.vercel.app/projects" target="_blank">
+        <a href="https://aps-waan.vercel.app/build-log/amazon-sales" target="_blank">
           <img src="node-amazon.svg" width="280" alt="Explore Amazon Sales Analytics" />
         </a>
       </td>
@@ -140,7 +140,8 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
       </div>
       <br/>
       <div align="center">
-        <a href="https://aps-waan.vercel.app/projects" target="_blank"><b>View Dashboard Showcase ➔</b></a>
+        <a href="https://aps-waan.vercel.app/build-log/blinkit-sales" target="_blank"><b>Read Full Architecture &amp; DAX Build Log ➔</b></a><br/>
+        <sub><a href="https://github.com/aps-waan/blinkit-sales-analysis" target="_blank">View GitHub Codebase</a> • <a href="https://lnkd.in/g29S5QT2" target="_blank">View LinkedIn Post</a></sub>
       </div>
     </td>
     <td width="50%" valign="top">
@@ -162,7 +163,8 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
       </div>
       <br/>
       <div align="center">
-        <a href="https://aps-waan.vercel.app/projects" target="_blank"><b>View Analytics Project ➔</b></a>
+        <a href="https://aps-waan.vercel.app/build-log/amazon-sales" target="_blank"><b>Read Full ETL &amp; MySQL Build Log ➔</b></a><br/>
+        <sub><a href="https://github.com/aps-waan/amazon-sales-analysis" target="_blank">View GitHub Codebase</a></sub>
       </div>
     </td>
   </tr>
@@ -269,11 +271,30 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
 
 ```bash
 [TARGET-ID: BLINKIT-RETAIL-TRANS]
-├── Ingestion Source     : 8,500+ transactional point-of-sale records
-├── Relational Schema    : Star Schema (Fact_Sales 1:N Dim_Items, Dim_Outlets, Dim_Dates)
-├── Core DAX Measures    : Total Sales, Tier Gross Margin %, Item Velocity, Outlet AOV
-├── Delivery SLA Insights: Isolated delivery latency variance between Tier 1 vs Tier 3 locations
-└── Verifiable Status    : Model validated • Executive dashboard published at aps-waan.vercel.app
+├── Build Log Deep Dive  : https://aps-waan.vercel.app/build-log/blinkit-sales
+├── GitHub Codebase      : https://github.com/aps-waan/blinkit-sales-analysis
+├── LinkedIn Case Study  : https://lnkd.in/g29S5QT2
+├── Pipeline Topology    : Raw Excel Data ➔ SQL Querying ➔ Power Query (ETL) ➔ DAX Modeling Engine
+├── Star Schema Relational: FactSales (1:N) DimDate, DimOutlet, DimProduct
+├── SQL Pre-aggregation  : DENSE_RANK() window functions in DataGrip for category revenue ranking
+├── Data Sanitization    : Power Query M to resolve mixed item descriptions ('low fat' vs 'LF' vs 'Regular')
+└── Repeatable Workflow  : Auto-refresh pipeline (dropping raw Excel updates all SQL & Power BI visuals)
+```
+
+```dax
+// CORE DAX BLUEPRINT: Period-over-Period YoY Sales Variance with Zero-Division Guard
+Sales PoP Variance % = 
+VAR CurrentPeriodSales = SUM(FactSales[SalesAmount])
+VAR PriorPeriodSales = CALCULATE(
+    SUM(FactSales[SalesAmount]), 
+    SAMEPERIODLASTYEAR(DimDate[Date])
+)
+RETURN
+    DIVIDE(
+        CurrentPeriodSales - PriorPeriodSales, 
+        PriorPeriodSales, 
+        0
+    )
 ```
 </details>
 
@@ -283,11 +304,22 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
 
 ```bash
 [TARGET-ID: AMAZON-IN-TRANS-130K]
-├── Database Engine      : MySQL 8.0 (Indexed partitioning across order dates)
-├── Complex Querying     : Window Functions (ROW_NUMBER, DENSE_RANK), Multi-table Joins & CTEs
-├── Channel Breakdown    : Amazon FBA fulfillment velocity vs Merchant-Fulfilled Network (MFN)
-├── Commercial Telemetry : Isolated highest-returning SKUs and quantified seasonal promotional lift
-└── Verifiable Status    : SQL scripts archived • Power BI telemetry report live
+├── Build Log Deep Dive  : https://aps-waan.vercel.app/build-log/amazon-sales
+├── GitHub Codebase      : https://github.com/aps-waan/amazon-sales-analysis
+├── Pipeline Topology    : Raw CSV ➔ Pandas/NumPy Cleaning ➔ MySQL Database ➔ DataGrip Views ➔ Power BI
+├── Data Cleaning Vector : Python Pandas dropped duplicates, handled null values & normalized datetime types
+├── Channel Attribution  : Fulfillment velocity analysis isolating Amazon FBA vs Merchant-Fulfilled (FBM)
+└── KPI Optimization     : Aggregations pre-computed as MySQL database views in DataGrip for lightweight BI
+```
+
+```sql
+-- CORE SQL QUERY: Fulfillment Channel Order Volume & Revenue Attribution
+SELECT 
+    fulfillment_channel,
+    COUNT(order_id) AS total_orders,
+    ROUND(SUM(amount), 2) AS total_revenue
+FROM amazon_sales
+GROUP BY fulfillment_channel;
 ```
 </details>
 

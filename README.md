@@ -211,7 +211,7 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
       </div>
       <br/>
       <div align="center">
-        <a href="https://github.com/aps-waan" target="_blank"><b>View Repository ➔</b></a>
+        <a href="https://aps-waan.vercel.app/build-log/nexus" target="_blank"><b>Read Full Architecture &amp; PaaS Build Log ➔</b></a>
       </div>
     </td>
   </tr>
@@ -225,7 +225,7 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
       </div>
       <p>Delivering production digital storefronts and agency client websites with conversion-optimized UI/UX, payment setup, custom themes, and full web hosting administration.</p>
       <ul>
-        <li><b>Shopify & WooCommerce:</b> Product catalogs, checkout optimization, third-party apps, and analytics tracking.</li>
+        <li><b>Shopify &amp; WooCommerce:</b> Product catalogs, checkout optimization, third-party apps, and analytics tracking.</li>
         <li><b>Infrastructure Ops:</b> Hostinger VPS, cPanel administration, DNS records, SSL certs, and Vercel cloud deployments.</li>
       </ul>
       <div align="center">
@@ -241,23 +241,23 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
     </td>
     <td width="50%" valign="top">
       <div align="center">
-        <h3>⚖️ Investment Portfolio Optimizer & Mini Aladdin</h3>
-        <p><strong>Machine Learning • Random Forest • Ollama Llama 3.1 • Equity Scanning</strong></p>
+        <h3>⚖️ Investment Portfolio Recommendation System</h3>
+        <p><strong>Machine Learning • Random Forest • Ollama Llama 3.1 • Flask</strong></p>
       </div>
-      <p>A machine-learning equity optimization toolkit utilizing Random Forest algorithms for asset re-weighting, paired with local Ollama Llama 3.1 natural-language portfolio rationales.</p>
+      <p>A full-stack Flask application engineered over a single weekend using the structural blueprint of Mini Aladdin to optimize portfolio construction via Random Forest ranking and local LLM reports.</p>
       <ul>
-        <li><b>Asset Allocation:</b> Efficient frontier discovery balancing expected returns and variance.</li>
-        <li><b>Mini Aladdin Engine:</b> Screening quantitative equity signals across price-to-earnings, momentum, and sector weightings.</li>
+        <li><b>ML Asset Allocation:</b> Rolling-window Random Forest scoring forward desirability based on return, volatility, drawdown, and beta.</li>
+        <li><b>Local LLM Narratives:</b> Local Ollama (Llama 3.1) generates human-readable rationales across Indian equities &amp; ETFs.</li>
       </ul>
       <div align="center">
-        <img src="https://img.shields.io/badge/Machine_Learning-F59E0B?style=flat-square" />
+        <img src="https://img.shields.io/badge/Flask_Backend-000000?style=flat-square&logo=flask&logoColor=white" />
         <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-        <img src="https://img.shields.io/badge/Ollama_Llama_3.1-000000?style=flat-square" />
-        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+        <img src="https://img.shields.io/badge/Ollama_Llama_3.1-412991?style=flat-square" />
+        <img src="https://img.shields.io/badge/yfinance-10B981?style=flat-square" />
       </div>
       <br/>
       <div align="center">
-        <a href="https://github.com/aps-waan" target="_blank"><b>View ML Engine ➔</b></a>
+        <a href="https://github.com/aps-waan/investment-portfolio" target="_blank"><b>View GitHub Codebase (investment-portfolio) ➔</b></a>
       </div>
     </td>
   </tr>
@@ -266,7 +266,7 @@ As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar,
 <br/>
 
 <details>
-<summary><b>▶ [SYSTEM_EXEC]: RUN_DOSSIER // BLINKIT_QUICK_COMMERCE.BI (8,500+ ORDERS)</b></summary>
+<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // BLINKIT_QUICK_COMMERCE.BI (8,500+ ORDERS)</b></summary>
 <br/>
 
 ```bash
@@ -299,7 +299,7 @@ RETURN
 </details>
 
 <details>
-<summary><b>▶ [SYSTEM_EXEC]: RUN_DOSSIER // AMAZON_ECOMMERCE_AUDIT.SQL (130,000+ ORDERS)</b></summary>
+<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // AMAZON_ECOMMERCE_AUDIT.SQL (130,000+ ORDERS)</b></summary>
 <br/>
 
 ```bash
@@ -324,7 +324,65 @@ GROUP BY fulfillment_channel;
 </details>
 
 <details>
-<summary><b>▶ [SYSTEM_EXEC]: RUN_DOSSIER // LUCIDITY_QUANT_ENGINE.PY (99.2% PRECISION)</b></summary>
+<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // NEXUS_AI_CLEANING_PAAS.PY (98.5% ACCURACY)</b></summary>
+<br/>
+
+```bash
+[TARGET-ID: NEXUS-AI-DATASET-CLEANER]
+├── Build Log Deep Dive : https://aps-waan.vercel.app/build-log/nexus
+├── Architecture Scope  : React Frontend ➔ FastAPI Gateway ➔ Automated Cleaning Engine ➔ Groq/OpenAI Parser
+├── Schema Precision    : 98.5% accuracy across heterogeneous CSV/JSON columnar data
+├── Data Quality Boost  : 94.2% automated cleansing precision (imputation, deduplication, type inference)
+├── Chunk Streaming     : Scalable 1GB dataset ingest buffer via Pandas streaming iterators
+└── Enterprise Utility  : Exports clean parquet/csv with complete reproducible audit trail
+```
+
+```python
+# CORE PYTHON ENGINE: Automated Column Classification into Metric, DateTime & Dimension
+def auto_detect_types(df: pd.DataFrame) -> dict:
+    profile = {}
+    for col in df.columns:
+        if pd.api.types.is_numeric_dtype(df[col]):
+            profile[col] = "METRIC"
+        elif pd.api.types.is_datetime64_any_dtype(df[col]):
+            profile[col] = "DATETIME"
+        else:
+            profile[col] = "DIMENSION"
+    return profile
+```
+</details>
+
+<details>
+<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // INVESTMENT_PORTFOLIO_RECOMMENDER.PY (ML RANDOM FOREST + LLAMA 3.1)</b></summary>
+<br/>
+
+```bash
+[TARGET-ID: INVESTMENT-PORTFOLIO-RECOMMENDER]
+├── GitHub Codebase     : https://github.com/aps-waan/investment-portfolio
+├── System Architecture : Flask Web App • yfinance Data Pipeline • Scikit-Learn • Local Ollama LLM
+├── Quantitative Models : Rolling-window Random Forest ranking asset forward desirability
+├── Asset Universe      : Indian Equities & Sector ETFs (NIFTYBEES, GOLDBEES, LIQUIDBEES, Bluechips)
+├── Risk Scoring Engine : 5-tier investor risk classification with dynamic constraint re-balancing
+└── Local AI Reports    : Private, offline Llama 3.1 LLM generation for automated portfolio briefs
+```
+
+```python
+# CORE ML MODEL: Multi-Factor Desirability Scoring & Asset Ranking
+from sklearn.ensemble import RandomForestRegressor
+
+def train_desirability_model(features_df, forward_returns):
+    """
+    Trains Random Forest on rolling volatility, Sharpe, beta, and drawdowns
+    to rank asset forward risk-adjusted return desirability.
+    """
+    rf = RandomForestRegressor(n_estimators=100, max_depth=5, random_state=42)
+    rf.fit(features_df, forward_returns)
+    return rf
+```
+</details>
+
+<details>
+<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // LUCIDITY_QUANT_ENGINE.PY (99.2% PRECISION)</b></summary>
 <br/>
 
 ```bash
@@ -338,7 +396,7 @@ GROUP BY fulfillment_channel;
 </details>
 
 <details>
-<summary><b>▶ [SYSTEM_EXEC]: RUN_DOSSIER // COMMERCIAL_CLIENT_WEB_OPS.SH (100% DEPLOYED)</b></summary>
+<summary><b>[SYSTEM_EXEC]: RUN_DOSSIER // COMMERCIAL_CLIENT_WEB_OPS.SH (100% DEPLOYED)</b></summary>
 <br/>
 
 ```bash

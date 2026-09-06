@@ -1,134 +1,316 @@
+<div align="center">
+
+<!-- HERO BANNER -->
+<a href="https://aps-waan.vercel.app" target="_blank">
+  <img src="banner.svg" alt="Agampreet Singh Waan - Web Developer, FinTech & BI Specialist Banner" width="100%" />
+</a>
+
+<br/><br/>
+
+<!-- BADGES STRIP -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aps-waan)
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aps-waan.vercel.app)
+[![DA Resume](https://img.shields.io/badge/Data_Analyst_Resume-0891B2?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://aps-waan.vercel.app/resumes/Agampreet_DA.pdf)
+[![FinTech Resume](https://img.shields.io/badge/FinTech_Resume-6366F1?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://aps-waan.vercel.app/resumes/Agampreet_Fintech.pdf)
+[![Direct Email](https://img.shields.io/badge/Direct_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:agampreetwaan@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aps-waan)
+
+<br/>
+
+### ⚡ Data & BI Analyst • Commercial Web Developer • FinTech Specialist
 <p align="center">
-  <img src="banner.svg" alt="Agampreet Waan Banner" width="100%" />
+  <em>Final-Year BBA (FinTech) at Chitkara University • Data Analytics Intern & AI-Assisted Systems Builder • Delivering Commercial Client E-Commerce & Web Platforms</em>
 </p>
 
-## 👋 About Me
-
-I am a **BBA (FinTech) student** specializing in building data-driven solutions at the intersection of **Financial Technology, Artificial Intelligence, and Business Intelligence**. Rather than just collecting theoretical concepts, I focus on building complete, production-ready products—from database modeling to user-friendly AI integrations.
-
 ---
-
-## 🚀 Currently Building
-
-```text
-📁 Nexus v2           █░░░░░░░░░░░░░░░░░░░ 10%  (Upgrading cleaner pipeline & LLM agent autonomy)
-📁 AI Agents          ████████████░░░░░░░░ 60%  (Multi-agent workflows for financial document analysis)
-📁 Data Intelligence  ████████████████░░░░ 80%  (Advanced DAX modeling and ETL automation templates)
-📁 Business Analytics ███████████████████░ 95%  (Real-time sales dashboard integrations)
-```
-
-- **Focus Areas**: Agentic AI workflows • Quantitative portfolio analytics • SQL & Power BI analytics pipelines • Scalable full-stack systems.
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-  
-  ### Languages & Frameworks
-  [![My Skills](https://skillicons.dev/icons?i=python,js,fastapi,react,html,css,streamlit&theme=dark)](https://skillicons.dev)
-
-  ### Data, Databases & BI
-  [![My Skills](https://skillicons.dev/icons?i=mysql,postgres,supabase,mongodb&theme=dark)](https://skillicons.dev)
-  
-  *(Power BI, Excel, DAX, Power Query, Pandas, NumPy, Plotly)*
-
-  ### AI, Automation & Tools
-  [![My Skills](https://skillicons.dev/icons?i=openai,docker,git,github,vscode&theme=dark)](https://skillicons.dev)
-  
-  *(Google Gemini API, n8n Workflow Automation, LLM Integrations)*
 
 </div>
 
+## 🌐 Executive Profile
+
+I operate at the intersection of **Business Intelligence, Financial Technology, and Commercial Web Development**. 
+
+As a **Data & BI Analyst in training** and **Final-Year BBA (FinTech)** scholar, I transform complex, unstructured transactional data into interactive executive dashboards, quantitative risk models, and actionable commercial insights. Simultaneously, I actively build and deploy **commercial client storefronts and digital products**—spanning high-converting Shopify stores, custom WordPress themes, and high-performance React applications managed on Hostinger and Vercel.
+
+```
+┌──────────────────────────────────────────────────────────────────────────┐
+│                   COMMERCIAL CLIENT & FREELANCE TRACK                    │
+│   • Shopify E-Commerce Storefronts   • Custom WordPress Themes & Plugins │
+│   • Modern React Web Applications    • Hostinger VPS, cPanel & DNS Ops   │
+└────────────────────────────────────┬─────────────────────────────────────┘
+                                     │
+┌────────────────────────────────────▼─────────────────────────────────────┐
+│                 DATA ANALYTICS & BUSINESS INTELLIGENCE                   │
+│   • Advanced SQL (CTEs, Window Fns)  • Power BI & Advanced DAX Modeling  │
+│   • Power Query & M ETL Pipelines    • End-to-End Retail & Sales Audits  │
+└────────────────────────────────────┬─────────────────────────────────────┘
+                                     │
+┌────────────────────────────────────▼─────────────────────────────────────┐
+│                   FINTECH & AI-ASSISTED SYSTEMS TRACK                    │
+│   • Quantitative Risk Modeling       • Monte Carlo, VaR, Sharpe, Beta    │
+│   • Python / Streamlit Prototypes    • LLM & Autonomous Data Cleaners    │
+└──────────────────────────────────────────────────────────────────────────┘
+```
+
 ---
 
-## 🏆 Featured Projects
+## 💼 Experience & Career Track
 
-Here is a selection of my core projects, highlighting my work in analytics, finance, and AI.
+### 📊 Data Analyst & AI-Assisted Systems Intern
+*Hands-On Analytics & Machine Intelligence • 2024 – Present*
+- **End-to-End Data Pipeline Engineering**: Ingest, clean, and validate raw structured and semi-structured datasets using SQL, Python, and Power Query (M).
+- **Relational Modeling & DAX Engineering**: Architect Star Schema models with one-to-many relationship structures, calculated columns, dynamic measures, and Time Intelligence functions in Power BI.
+- **AI-Assisted Workflow Development**: Leverage LLM integrations and automated data agents (Nexus engine) for automated tabular data cleansing, schema anomaly identification, and exploratory data analysis (EDA).
+- **Decision Support & Executive Reporting**: Convert operational telemetry into executive summaries that spotlight conversion rate bottlenecks, inventory turnover velocity, and channel gross margin attribution.
 
-<table width="100%">
+### 🛍️ Commercial Freelance Web Developer & Consultant
+*Production Client Delivery & Storefront Engineering • 2023 – Present*
+- **Shopify E-Commerce Stores**: Complete storefront setup, custom liquid theme adjustments, payment gateway integration, app ecosystem setup, and conversion-rate optimization (CRO).
+- **Custom WordPress & WooCommerce Development**: Custom theme engineering (e.g. *DigitalHive*), mobile-first responsive architecture, page speed optimization, and on-page SEO foundations.
+- **Modern React SPAs**: Developing dynamic single-page web applications with modular component architecture, state management, and seamless API integrations.
+- **Hosting & Web Operations**: Complete server administration across **Hostinger VPS** and **cPanel**, zero-downtime domain transfers, SSL encryption provisioning, and automated Vercel CI/CD pipelines.
+
+### 🎓 Academic Track
+*Final-Year Bachelor of Business Administration (BBA) — Financial Technology (FinTech)*  
+**Chitkara University**
+- **Core Specializations**: Corporate Finance, Quantitative Investment Modeling, Modern Portfolio Theory (MPT), Financial Markets, Risk Management Frameworks, and Strategic Business Analytics.
+
+---
+
+## 📊 Data Analytics & FinTech Case Studies
+
+<table>
+  <!-- ROW 1: BLINKIT & AMAZON -->
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 Nexus</h3>
-      <p><strong>AI Universal Data Analyzer</strong></p>
-      <p>A universal data analysis platform that automatically cleans raw datasets, performs exploratory analysis (EDA), generates interactive charts, and produces executive summaries using AI agents.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-      </p>
+      <div align="center">
+        <h3>🛒 Blinkit Sales & Quick-Commerce Dashboard</h3>
+        <p><strong>Power BI • Advanced DAX • Star Schema • 8,500+ Orders</strong></p>
+      </div>
+      <p>A comprehensive business intelligence solution analyzing quick-commerce retail transactions to uncover outlet margin variations, item category performance, and delivery SLA bottlenecks.</p>
+      <ul>
+        <li><b>Data Modeling:</b> Architected a clean Star Schema connecting transactional fact tables with item dimension tables.</li>
+        <li><b>DAX Engineering:</b> Developed dynamic measures for total sales, outlet tier gross margins, average order value (AOV), and customer rating distributions.</li>
+        <li><b>Impact:</b> Uncovered critical inventory turnover bottlenecks across outlet types (Tier 1 vs Tier 3 locations).</li>
+      </ul>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+        <img src="https://img.shields.io/badge/Advanced_DAX-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+        <img src="https://img.shields.io/badge/Power_Query-007ACC?style=flat-square" />
+        <img src="https://img.shields.io/badge/Star_Schema-10B981?style=flat-square" />
+      </div>
+      <br/>
+      <div align="center">
+        <a href="https://aps-waan.vercel.app/projects" target="_blank"><b>View Dashboard Showcase ➔</b></a>
+      </div>
     </td>
     <td width="50%" valign="top">
-      <h3>📈 Lucidity</h3>
-      <p><strong>Portfolio Intelligence Platform</strong></p>
-      <p>An institutional-grade portfolio analytics dashboard providing real-time performance tracking, risk metrics (Sharpe, VaR, Beta), benchmark comparisons, and AI-driven investment allocation recommendations.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-      </p>
+      <div align="center">
+        <h3>📦 Amazon E-Commerce Sales Analytics</h3>
+        <p><strong>MySQL • Data Cleaning • Power BI • 130,000+ Records</strong></p>
+      </div>
+      <p>Full-scale e-commerce database audit cleaning, transforming, and visualizing over 130k customer transactions across multi-regional Indian distribution centers.</p>
+      <ul>
+        <li><b>SQL ETL:</b> Wrote complex MySQL queries with CTEs, subqueries, and window functions to cleanse inconsistent order statuses and dates.</li>
+        <li><b>Channel Analysis:</b> Evaluated fulfillment velocity between Amazon FBA and merchant-fulfilled logistics, isolating courier return rates and cancellations.</li>
+        <li><b>Commercial Insight:</b> Identified high-margin geographic clusters and promotion-driven sales lift across seasonal quarters.</li>
+      </ul>
+      <div align="center">
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQL_Window_Functions-CC2927?style=flat-square" />
+        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+        <img src="https://img.shields.io/badge/ETL_Pipeline-3B82F6?style=flat-square" />
+      </div>
+      <br/>
+      <div align="center">
+        <a href="https://aps-waan.vercel.app/projects" target="_blank"><b>View Analytics Project ➔</b></a>
+      </div>
     </td>
   </tr>
+
+  <!-- ROW 2: LUCIDITY & NEXUS -->
   <tr>
     <td width="50%" valign="top">
-      <h3>📊 Amazon Sales Analytics</h3>
-      <p><strong>E-commerce Business Dashboard</strong></p>
-      <p>End-to-end sales analytics pipeline parsing e-commerce datasets to uncover seasonality trends, track inventory turnover ratios, evaluate seller performance, and perform customer cohort analysis.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-        <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
-        <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
-      </p>
+      <div align="center">
+        <h3>📈 Lucidity FinTech Risk Engine</h3>
+        <p><strong>Quantitative Finance • Monte Carlo • Streamlit • 99.2% Accuracy</strong></p>
+      </div>
+      <p>An institutional-grade algorithmic portfolio risk engine calculating real-time risk-adjusted metrics, covariance matrices, and downside volatility regime models in under 2 minutes.</p>
+      <ul>
+        <li><b>Quantitative Models:</b> Computes Sharpe Ratio, Sortino Ratio, Value-at-Risk (Parametric & Historical VaR), Beta, and Fama-French factor regressions.</li>
+        <li><b>Simulation Engine:</b> Conducts multi-path Monte Carlo simulations to estimate probability distributions of maximum portfolio drawdowns.</li>
+        <li><b>Live Prototype:</b> Deployed as an interactive Streamlit application with live API price ingestion.</li>
+      </ul>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Streamlit_App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+        <img src="https://img.shields.io/badge/Quant_Finance-10B981?style=flat-square" />
+      </div>
+      <br/>
+      <div align="center">
+        <a href="https://lucidity-app.streamlit.app/" target="_blank"><b>Launch Live Streamlit Engine 🚀 ➔</b></a>
+      </div>
     </td>
     <td width="50%" valign="top">
-      <h3>🛍️ Blinkit Dashboard</h3>
-      <p><strong>Retail Performance Analysis</strong></p>
-      <p>A comprehensive business intelligence dashboard translating retail transactions into actionable management insights, tracking delivery efficiency, product availability, and outlet-wise sales margins.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-        <img src="https://img.shields.io/badge/DAX-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-        <img src="https://img.shields.io/badge/Power_Query-007ACC?style=flat-square" />
-      </p>
+      <div align="center">
+        <h3>🤖 Nexus Data Analyzer & AI Agents</h3>
+        <p><strong>Automated Data Cleaning • Exploratory Data Analysis • LLM Integration</strong></p>
+      </div>
+      <p>An autonomous data assistant pipeline that ingests raw, messy CSV and Excel datasets, applies automated cleaning routines, detects anomalies, and generates executive insight memos.</p>
+      <ul>
+        <li><b>Autonomous EDA:</b> Automatic datatype inference, null handling, skewness detection, and dynamic Plotly chart generation.</li>
+        <li><b>AI Interpretation:</b> Integrates OpenAI/Gemini API to convert raw descriptive statistics into executive-ready bullet summaries.</li>
+      </ul>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/OpenAI_/_Gemini-412991?style=flat-square&logo=openai&logoColor=white" />
+        <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
+        <img src="https://img.shields.io/badge/Data_Cleaning-06B6D4?style=flat-square" />
+      </div>
+      <br/>
+      <div align="center">
+        <a href="https://github.com/aps-waan" target="_blank"><b>View Repository ➔</b></a>
+      </div>
+    </td>
+  </tr>
+
+  <!-- ROW 3: COMMERCIAL CLIENT WEB & PORTFOLIO OPTIMIZER -->
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3>🛍️ Commercial Freelance Web Delivery</h3>
+        <p><strong>Live Shopify Stores • Custom WordPress Themes • React Apps</strong></p>
+      </div>
+      <p>Delivering production digital storefronts and agency client websites with conversion-optimized UI/UX, payment setup, custom themes, and full web hosting administration.</p>
+      <ul>
+        <li><b>Shopify & WooCommerce:</b> Product catalogs, checkout optimization, third-party apps, and analytics tracking.</li>
+        <li><b>Infrastructure Ops:</b> Hostinger VPS, cPanel administration, DNS records, SSL certs, and Vercel cloud deployments.</li>
+      </ul>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Shopify-95BF47?style=flat-square&logo=shopify&logoColor=white" />
+        <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/Hostinger-673DE6?style=flat-square&logo=hostinger&logoColor=white" />
+      </div>
+      <br/>
+      <div align="center">
+        <a href="https://aps-waan.vercel.app" target="_blank"><b>Explore Commercial Work ➔</b></a>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3>⚖️ Investment Portfolio Optimizer & Mini Aladdin</h3>
+        <p><strong>Machine Learning • Random Forest • Ollama Llama 3.1 • Equity Scanning</strong></p>
+      </div>
+      <p>A machine-learning equity optimization toolkit utilizing Random Forest algorithms for asset re-weighting, paired with local Ollama Llama 3.1 natural-language portfolio rationales.</p>
+      <ul>
+        <li><b>Asset Allocation:</b> Efficient frontier discovery balancing expected returns and variance.</li>
+        <li><b>Mini Aladdin Engine:</b> Screening quantitative equity signals across price-to-earnings, momentum, and sector weightings.</li>
+      </ul>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Machine_Learning-F59E0B?style=flat-square" />
+        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+        <img src="https://img.shields.io/badge/Ollama_Llama_3.1-000000?style=flat-square" />
+        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+      </div>
+      <br/>
+      <div align="center">
+        <a href="https://github.com/aps-waan" target="_blank"><b>View ML Engine ➔</b></a>
+      </div>
     </td>
   </tr>
 </table>
 
 ---
 
-## 📈 GitHub Analytics
+## ⚡ Operational Data & Analytics Lifecycle
 
-<p align="center">
-  <img height="170" src="https://github-stats-extended.vercel.app/api?username=aps-waan&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=true"/>
-  <img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=aps-waan&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
+Here is the systematic methodology I apply across real-world business intelligence and analytics projects:
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=aps-waan&theme=tokyonight&hide_border=true" width="100%" />
-</p>
+```
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+│ 01. DATA SOURCE │ ───►  │ 02. INGESTION   │ ───►  │ 03. PROCESSING  │
+│  SQL DBs, APIs, │       │ Schema checks,  │       │ Complex SQL, M, │
+│  CSV/Excel, ERP │       │ Power Query ETL │       │ Window Fns, CTE │
+└─────────────────┘       └─────────────────┘       └─────────────────┘
+                                                             │
+┌─────────────────┐       ┌─────────────────┐                │
+│ 06. IMPACT      │ ◄───  │ 05. VISUALS     │ ◄──────────────┘
+│ Decision-ready  │       │ Power BI DAX,   │       ┌─────────────────┐
+│ insights & CRO  │       │ Executive HUD,  │ ◄───  │ 04. ANALYTICS   │
+│ margin lift     │       │ Storytelling    │       │ EDA, KPIs, Risk │
+└─────────────────┘       └─────────────────┘       │ & Variance calc │
+                                                    └─────────────────┘
+```
 
 ---
 
-## 🎓 Timeline & Experience
+## 🛠️ Technical Skill Matrix & Competency Index
 
-- **BBA in Financial Technology**
-  *Developing a solid foundation in corporate finance, investment analysis, quantitative modeling, and regulatory frameworks.*
-- **Independent Product Builder**
-  *Applying advanced analytics, LLM orchestration, and modern web architectures to build business-ready intelligence solutions.*
+| Domain | Core Tools & Technologies | Capacity Status | Key Focus Vectors | Verifiable Projects |
+| :--- | :--- | :---: | :--- | :--- |
+| **SQL & Databases** | MySQL, PostgreSQL, MS SQL | `HIGH_LOAD` | CTEs, Window Functions, Complex Joins, Query Optimization, Schema Design | [Amazon Sales Analysis](https://aps-waan.vercel.app/projects), [Blinkit BI](https://aps-waan.vercel.app/projects) |
+| **Business Intelligence** | Power BI, Power BI Service | `MAX_EFF` | Relational Star Schemas, Calculated DAX Measures, Time Intelligence, Custom KPIs | [Blinkit Quick-Commerce](https://aps-waan.vercel.app/projects), [Amazon Dashboard](https://aps-waan.vercel.app/projects) |
+| **ETL & Data Prep** | Power Query (M), Excel, Pandas | `HIGH_LOAD` | Automated ETL, Column Parsing, Unpivoting, Merging & Appending datasets | [Nexus Data Cleaner](https://github.com/aps-waan), [Retail ETL Audits](https://aps-waan.vercel.app/projects) |
+| **FinTech & Quant** | Python, Modern Portfolio Theory | `MAX_EFF` | Sharpe/Sortino Ratios, Value-at-Risk (VaR), Beta, Monte Carlo, GARCH Regimes | [Lucidity Risk Engine](https://lucidity-app.streamlit.app/), [Portfolio Optimizer](https://github.com/aps-waan) |
+| **Python & AI** | FastAPI, Streamlit, Scikit-learn, LLMs | `HIGH_LOAD` | REST APIs, Streamlit dashboards, OpenAI/Gemini API, Ollama Llama 3.1 | [Nexus v2](https://github.com/aps-waan), [Lucidity Backend](https://lucidity-app.streamlit.app/) |
+| **Commercial Web** | Shopify, WordPress, React.js, Tailwind | `MAX_EFF` | Custom Storefronts, WooCommerce, Component SPAs, Conversion Rate Optimization | [Live Client Stores](https://aps-waan.vercel.app), [WordPress Themes](https://aps-waan.vercel.app) |
+| **Web Ops & Cloud** | Hostinger, Vercel, cPanel, Git | `HIGH_LOAD` | VPS Management, Zero-Downtime DNS routing, SSL provisioning, CI/CD | [aps-waan.vercel.app](https://aps-waan.vercel.app), [Client Deployments](https://aps-waan.vercel.app) |
 
 ---
 
-## 🤝 Connect
+## 📊 GitHub Analytics & Real-Time Telemetry
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/aps-waan" target="_blank">
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aps-waan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=06b6d4&text_color=94a3b8&icon_color=06b6d4&bg_color=090d16" height="175" alt="GitHub Stats" />
+      </td>
+      <td align="center">
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aps-waan&layout=compact&theme=tokyonight&hide_border=true&title_color=06b6d4&text_color=94a3b8&bg_color=090d16" height="175" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aps-waan&theme=tokyonight&hide_border=true&background=090d16&ring=06b6d4&fire=f59e0b&currStreakNum=06b6d4&sideNums=94a3b8&dates=64748b" width="100%" alt="GitHub Streak" />
+
+  <br/>
+
+  <a href="https://github.com/aps-waan">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=aps-waan&theme=tokyo-night&bg_color=090d16&color=06b6d4&line=06b6d4&point=f59e0b&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
+  </a>
+</div>
+
+---
+
+## 🤝 Let's Connect & Collaborate
+
+Whether you are looking for a **Data & BI Analyst** to untangle transactions into high-impact Power BI/SQL pipelines, a **FinTech developer** to build quantitative risk tools, or an experienced **commercial web developer** to launch your Shopify/WordPress/React storefront, let's talk!
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/aps-waan/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  &nbsp;
   <a href="https://aps-waan.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
+  &nbsp;
+  <a href="https://aps-waan.vercel.app/resumes/Agampreet_DA.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/DA_Resume_PDF-0891B2?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
+  </a>
+  &nbsp;
   <a href="mailto:agampreetwaan@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Direct_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/aps-waan">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
+
+<div align="center">
+  <sub>Designed &amp; Maintained by <b>Agampreet Singh Waan</b> • Final-Year BBA (FinTech) at Chitkara University • Data &amp; BI Analyst • Commercial Web Developer</sub>
+</div>
